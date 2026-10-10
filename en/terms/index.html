@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <title>PricePal Terms and Conditions</title>
+  <title>PriceMath Terms and Conditions</title>
   <style>
     :root { color-scheme: light dark; --text: #1a1d23; --muted: #5f6672; --bg: #f7f7f7; --line: #dfe2e7; --link: #0b62c4; }
     @media (prefers-color-scheme: dark) { :root { --text: #f2f2f2; --muted: #a3aab5; --bg: #0e1115; --line: #2a3039; --link: #7db4ff; } }
@@ -15,6 +15,7 @@
     nav { display: flex; flex-wrap: wrap; gap: 4px 20px; border-bottom: 1px solid var(--line); }
     nav a { display: inline-flex; align-items: center; min-height: 48px; font-weight: 600; }
     main { padding-bottom: 4rem; overflow-wrap: anywhere; }
+    :lang(ko) { word-break: keep-all; }
     a { color: var(--link); }
     h1 { font-size: 1.6rem; line-height: 1.25; margin: 1.5rem 0 0.25rem; }
     h2 { font-size: 1.15rem; line-height: 1.3; margin: 2rem 0 0.25rem; }
@@ -26,38 +27,49 @@
 <body>
 <header>
   <nav>
-    <a href="../">PricePal Privacy Policy</a>
+    <a href="../">PriceMath Privacy Policy</a>
+    <a href="../../de/terms/" hreflang="de" lang="de">Deutsch</a>
+    <a href="../../es/terms/" hreflang="es" lang="es">Español</a>
+    <a href="../../fr/terms/" hreflang="fr" lang="fr">Français</a>
     <a href="../../termini/" hreflang="it" lang="it">Italiano</a>
+    <a href="../../pt-br/terms/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+    <a href="../../pt-pt/terms/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a>
+    <a href="../../ko/terms/" hreflang="ko" lang="ko">한국어</a>
+    <a href="../../zh-hans/terms/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
   </nav>
 </header>
 <main>
-  <h1>PricePal Terms and Conditions</h1>
-  <p class="meta">Version 2026-10-08 · Effective from 8 October 2026</p>
-  <p>These terms govern the use of PricePal, the Android app for working out discounts and tips that you can find on Google Play as "PricePal: Discount &amp; Tip Calc".</p>
-  <h2>1. Who makes PricePal</h2>
-  <p>PricePal is an app by Leonardo Messina, who publishes it on Google Play under the name One Tap Core. In these terms, "we" means Leonardo Messina.</p>
+  <h1>PriceMath Terms and Conditions</h1>
+  <p class="meta">Version 2026-10-10 · Effective from 10 October 2026</p>
+  <p>These terms govern the use of PriceMath, the Android app for working out discounts and tips that you can find on Google Play.</p>
+  <h2>1. Who makes PriceMath</h2>
+  <p>PriceMath is an app by Leonardo Messina, who publishes it on Google Play under the name One Tap Core. In these terms, "we" means Leonardo Messina.</p>
   <p>Email: <a href="mailto:onetapcoresupport@gmail.com">onetapcoresupport@gmail.com</a></p>
   <h2>2. How you accept them</h2>
-  <p>To use PricePal you must accept these terms. The app shows them to you the first time you open it, before you can use it: you accept them by ticking "I have read and accept the terms and conditions" and tapping "Continue".</p>
-  <p>If you already had a version of PricePal earlier than 1.5.0 and your phone still has calculations, percentages or settings saved with that version, the app shows you these terms the first time you open it after the update, and you can keep using it without accepting them.</p>
+  <p>To use PriceMath you must accept these terms. The app shows them to you the first time you open it, before you can use it: you accept them by ticking "I have read and accept the terms and conditions" and tapping "Continue".</p>
+  <p>If you already had a version of PriceMath earlier than 1.6.0 and your phone still has calculations, percentages or settings saved with that version, the app shows you these terms the first time you open it after the update, and you can keep using it without accepting them.</p>
   <p>A new version of these terms applies to you only if you accept it: until you do, the ones you accepted still apply.</p>
-  <h2>3. What PricePal does</h2>
+  <h2>3. What PriceMath does</h2>
   <ul>
-    <li><strong>Discount:</strong> given a price and a discount percentage above 0 and up to 100, it calculates the discounted price and the saving. If you add a second discount, it applies it to the price already discounted.</li>
-    <li><strong>Tip:</strong> given the amount of a bill and a percentage, it calculates the tip and the total. It can add sales tax to the bill, at the rate you type, and work out the tip on the amount before or after tax.</li>
-    <li><strong>Splitting the bill:</strong> it divides the total among several people. If the total does not divide into equal parts, some shares are one unit higher (for the euro, one cent). If you ask, it rounds up the total or each person's share to the step you choose, and what the rounding adds goes to the tip.</li>
+    <li><strong>Discount:</strong> given a price and a discount, which can be a percentage above 0 and up to 100 or an amount in the chosen currency no higher than the price it applies to, it calculates the discounted price and the saving. If you add a second discount, it applies it to the price already discounted. If you add sales tax, at the rate you type, it calculates it on the discounted price.</li>
+    <li><strong>Discounts the other way round:</strong> with "Original price" it calculates the price before the discounts from the discounted price, if no discount is 100%; when the discounts, applied to the price found, do not give exactly the discounted price, it shows it preceded by "about". With "What % off?" it calculates the discount as a percentage and the saving between the original price and the discounted price.</li>
+    <li><strong>Tip:</strong> given the amount of a bill and a percentage, it calculates the tip and the total. It can add sales tax to the bill, at the rate you type, and work out the tip on the amount before or after tax. With "Amount" it starts instead from what you pay, in total or per person: the tip is what you pay over the bill and its tax, and the app shows the percentage it makes; if what you pay does not cover the bill, it says how much is missing.</li>
+    <li><strong>Splitting the bill:</strong> with "Equally" it divides the total among several people. If the total does not divide into equal parts, some shares are one unit higher (for the euro, one cent). If you ask, it rounds the total or each person's share to the step you choose, up, down or to the nearest, and what the rounding adds or takes off goes to the tip: rounding down or to the nearest, the total may not cover the bill, and the app then says how much is missing.</li>
+    <li><strong>Bill by items:</strong> with "By items" each person has their own items: shared ones are split only among those who had them, and the cover charge per person is added to everyone's bill. Tip and tax are split in proportion to each person's bill or equally, and the shares are rounded to the decimal places of the currency so that, added up, they make the total. If with "Who paid?" you choose the person who paid for everyone, the app says how much each of the others owes them. The receipt total is optional and only used to check that everything is assigned: the app says how much is left to assign or how much more you have assigned.</li>
     <li><strong>VAT and sales tax:</strong> given an amount and a rate, it adds the tax or takes it out of a price that includes it, and shows the net amount, the tax and the total.</li>
-    <li><strong>Unit price:</strong> given the price and quantity of several packs, it calculates the price per unit of measure (for example per kg, per liter or per piece) and shows which one costs less. It does not compare packs measured by weight with packs measured by volume or by pieces.</li>
-    <li><strong>Rounding:</strong> amounts are rounded to the decimal places of the chosen currency (for the euro, to the cent; for the yen, to the unit).</li>
+    <li><strong>Unit price:</strong> given the price and quantity of several packs, including packs made of several items (for example 4 × 125 g), it calculates the price per unit of measure (for example per kg, per liter or per piece) and shows which one costs less and by how much. It does not compare packs measured by weight with packs measured by volume or by pieces.</li>
+    <li><strong>Multi-buy deals:</strong> given the price of one item, the deal (for example 3 for 2, 1+1, the second item at half price or 3 items for a set price) and how many items you buy, it calculates what you pay, what each item costs, the saving and the equivalent discount. After the deal it can apply a loyalty card discount and then a voucher: a voucher with a minimum spend only applies if the spend, after the deal and the card, reaches it, and no voucher takes the total below zero. Items that do not make up a whole group of the deal are paid at the original price: if you buy fewer items than the deal needs, the deal does not apply.</li>
+    <li><strong>Figure in full screen:</strong> it shows the figure of a result full screen, with the steps of the calculation, and keeps the screen on while showing it.</li>
+    <li><strong>Rounding:</strong> amounts are rounded to the decimal places of the chosen currency (for the euro, to the cent; for the yen, to the unit); prices per unit of measure and per item can have more. The percentages the app works out are rounded to the hundredth of a percentage point.</li>
     <li><strong>Currency:</strong> choosing a currency changes the symbol and the number of decimal places. The app does not convert amounts from one currency to another.</li>
     <li><strong>What the app does not know:</strong> it does not know which taxes, charges, promotions or rounding the shop or venue applies. The amount to pay is the one they ask you for.</li>
     <li><strong>Suggested percentages:</strong> the suggested discount, tip and VAT percentages are shortcuts you can change. The tip ones do not indicate how much it is customary to tip. The VAT ones are rates of the country you choose, as of the date the app shows, and may not be the ones that apply to your purchase.</li>
     <li><strong>History:</strong> it keeps on your phone the calculations you save, at most 5,000: when you save one more, the oldest is deleted. You can share or copy a calculation, export the history as a spreadsheet (CSV) and save a backup of it in a file, from which you can restore it together with the percentages and the settings.</li>
   </ul>
   <h2>4. Purchases</h2>
-  <p>If PricePal, or a feature of PricePal, is paid for, you buy it on Google Play. In Italy and in the rest of the European Economic Area the seller is Google Commerce Limited. Payment and the receipt are handled by Google Play; the right of withdrawal and refunds requested from Google are governed by the Google Play Terms of Service. The legal guarantee rights described in section 5 remain in any case.</p>
+  <p>If PriceMath, or a feature of PriceMath, is paid for, you buy it on Google Play. In Italy and in the rest of the European Economic Area the seller is Google Commerce Limited. Payment and the receipt are handled by Google Play; the right of withdrawal and refunds requested from Google are governed by the Google Play Terms of Service. The legal guarantee rights described in section 5 remain in any case.</p>
   <h2>5. Legal guarantee</h2>
-  <p>If you are a consumer and you paid for PricePal or one of its features, you have the rights of the legal guarantee of conformity for digital content (in Italy, Articles 135-octies onwards of the Consumer Code, Legislative Decree no. 206 of 6 September 2005).</p>
+  <p>If you are a consumer and you paid for PriceMath or one of its features, you have the rights of the legal guarantee of conformity for digital content (in Italy, Articles 135-octies onwards of the Consumer Code, Legislative Decree no. 206 of 6 September 2005).</p>
   <h2>6. Data</h2>
   <p>How we process personal data is explained in the privacy policy, which you can find in the app's settings and at <a href="https://artunx.github.io/price-pal-privacy/en/">https://artunx.github.io/price-pal-privacy/en/</a>.</p>
 </main>

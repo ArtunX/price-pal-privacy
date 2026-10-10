@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <title>Termini e condizioni di PricePal</title>
+  <title>Termini e condizioni di PriceMath</title>
   <style>
     :root { color-scheme: light dark; --text: #1a1d23; --muted: #5f6672; --bg: #f7f7f7; --line: #dfe2e7; --link: #0b62c4; }
     @media (prefers-color-scheme: dark) { :root { --text: #f2f2f2; --muted: #a3aab5; --bg: #0e1115; --line: #2a3039; --link: #7db4ff; } }
@@ -15,6 +15,7 @@
     nav { display: flex; flex-wrap: wrap; gap: 4px 20px; border-bottom: 1px solid var(--line); }
     nav a { display: inline-flex; align-items: center; min-height: 48px; font-weight: 600; }
     main { padding-bottom: 4rem; overflow-wrap: anywhere; }
+    :lang(ko) { word-break: keep-all; }
     a { color: var(--link); }
     h1 { font-size: 1.6rem; line-height: 1.25; margin: 1.5rem 0 0.25rem; }
     h2 { font-size: 1.15rem; line-height: 1.3; margin: 2rem 0 0.25rem; }
@@ -26,38 +27,49 @@
 <body>
 <header>
   <nav>
-    <a href="../">Informativa privacy di PricePal</a>
+    <a href="../">Informativa privacy di PriceMath</a>
+    <a href="../de/terms/" hreflang="de" lang="de">Deutsch</a>
     <a href="../en/terms/" hreflang="en" lang="en">English</a>
+    <a href="../es/terms/" hreflang="es" lang="es">Español</a>
+    <a href="../fr/terms/" hreflang="fr" lang="fr">Français</a>
+    <a href="../pt-br/terms/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+    <a href="../pt-pt/terms/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a>
+    <a href="../ko/terms/" hreflang="ko" lang="ko">한국어</a>
+    <a href="../zh-hans/terms/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
   </nav>
 </header>
 <main>
-  <h1>Termini e condizioni di PricePal</h1>
-  <p class="meta">Versione 2026-10-08 · In vigore dall'8 ottobre 2026</p>
-  <p>Questi termini regolano l'uso di PricePal, l'app Android per calcolare sconti e mance che trovi su Google Play come «PricePal: Discount &amp; Tip Calc».</p>
-  <h2>1. Chi fa PricePal</h2>
-  <p>PricePal è un'app di Leonardo Messina, che la pubblica su Google Play con il nome One Tap Core. In questi termini «noi» è Leonardo Messina.</p>
+  <h1>Termini e condizioni di PriceMath</h1>
+  <p class="meta">Versione 2026-10-10 · In vigore dal 10 ottobre 2026</p>
+  <p>Questi termini regolano l'uso di PriceMath, l'app Android per calcolare sconti e mance che trovi su Google Play.</p>
+  <h2>1. Chi fa PriceMath</h2>
+  <p>PriceMath è un'app di Leonardo Messina, che la pubblica su Google Play con il nome One Tap Core. In questi termini «noi» è Leonardo Messina.</p>
   <p>Email: <a href="mailto:onetapcoresupport@gmail.com">onetapcoresupport@gmail.com</a></p>
   <h2>2. Come si accettano</h2>
-  <p>Per usare PricePal devi accettare questi termini. L'app te li mostra la prima volta che la apri, prima che tu possa usarla: li accetti spuntando «Ho letto e accetto i termini e condizioni» e toccando «Continua».</p>
-  <p>Se avevi già una versione di PricePal precedente alla 1.5.0 e sul telefono ci sono ancora calcoli, percentuali o impostazioni salvati con quella versione, l'app ti mostra questi termini la prima volta che la apri dopo l'aggiornamento, e puoi continuare a usarla anche senza accettarli.</p>
+  <p>Per usare PriceMath devi accettare questi termini. L'app te li mostra la prima volta che la apri, prima che tu possa usarla: li accetti spuntando «Ho letto e accetto i termini e condizioni» e toccando «Continua».</p>
+  <p>Se avevi già una versione di PriceMath precedente alla 1.6.0 e sul telefono ci sono ancora calcoli, percentuali o impostazioni salvati con quella versione, l'app ti mostra questi termini la prima volta che la apri dopo l'aggiornamento, e puoi continuare a usarla anche senza accettarli.</p>
   <p>Una nuova versione di questi termini vale per te solo se la accetti: finché non la accetti, valgono quelli che hai accettato.</p>
-  <h2>3. Che cosa fa PricePal</h2>
+  <h2>3. Che cosa fa PriceMath</h2>
   <ul>
-    <li><strong>Sconto:</strong> dato un prezzo e una percentuale di sconto maggiore di 0 e fino a 100, calcola il prezzo scontato e il risparmio. Se aggiungi un secondo sconto, lo applica al prezzo già scontato.</li>
-    <li><strong>Mancia:</strong> dato l'importo di un conto e una percentuale, calcola la mancia e il totale. Può aggiungere al conto le tasse, con l'aliquota che scrivi tu, e calcolare la mancia sull'importo con o senza tasse.</li>
-    <li><strong>Divisione del conto:</strong> divide il totale fra più persone. Se il totale non si divide in parti uguali, alcune quote hanno un'unità in più (per l'euro, un centesimo). Se lo chiedi, arrotonda per eccesso il totale o la quota di ognuno al passo che scegli, e quello che l'arrotondamento aggiunge va alla mancia.</li>
+    <li><strong>Sconto:</strong> dati un prezzo e uno sconto, che può essere una percentuale maggiore di 0 e fino a 100 oppure un importo nella valuta scelta non più alto del prezzo a cui si applica, calcola il prezzo scontato e il risparmio. Se aggiungi un secondo sconto, lo applica al prezzo già scontato. Se aggiungi le tasse, con l'aliquota che scrivi tu, le calcola sul prezzo scontato.</li>
+    <li><strong>Sconto al contrario:</strong> con «Prezzo pieno» calcola il prezzo prima degli sconti a partire dal prezzo scontato, se nessuno sconto è del 100%; quando gli sconti, applicati al prezzo trovato, non danno esattamente il prezzo scontato, lo mostra preceduto da «circa». Con «Che sconto è?» calcola lo sconto in percentuale e il risparmio fra il prezzo pieno e il prezzo scontato.</li>
+    <li><strong>Mancia:</strong> dato l'importo di un conto e una percentuale, calcola la mancia e il totale. Può aggiungere al conto le tasse, con l'aliquota che scrivi tu, e calcolare la mancia sull'importo con o senza tasse. Con «Importo» parte invece da quanto paghi, in tutto o a testa: la mancia è quello che paghi oltre al conto e alle sue tasse, e l'app mostra a quale percentuale corrisponde; se quello che paghi non basta per il conto, dice quanto manca.</li>
+    <li><strong>Divisione del conto:</strong> con «In parti uguali» divide il totale fra più persone. Se il totale non si divide in parti uguali, alcune quote hanno un'unità in più (per l'euro, un centesimo). Se lo chiedi, arrotonda il totale o la quota di ognuno al passo che scegli, per eccesso, per difetto o al più vicino, e quello che l'arrotondamento aggiunge o toglie va alla mancia: per difetto o al più vicino il totale può non bastare per il conto, e allora l'app dice quanto manca.</li>
+    <li><strong>Conto per consumazione:</strong> con «Per consumazione» ognuno ha le sue voci: quelle in comune si dividono solo fra chi le ha prese, e il coperto a testa si aggiunge al conto di ognuno. Mancia e tasse si dividono in proporzione al conto di ognuno o in parti uguali, e le quote sono arrotondate ai decimali della valuta in modo che, sommate, diano il totale. Se con «Chi ha pagato?» scegli la persona che ha pagato per tutti, l'app dice quanto le deve ognuno degli altri. Il totale dello scontrino è facoltativo e serve solo a controllare che tutto sia assegnato: l'app dice quanto manca da assegnare o quanto hai assegnato in più.</li>
     <li><strong>IVA e tasse:</strong> dato un importo e un'aliquota, aggiunge l'imposta o la toglie da un prezzo che la comprende, e mostra l'imponibile, l'imposta e il totale.</li>
-    <li><strong>Prezzo al kg:</strong> dati il prezzo e la quantità di più confezioni, calcola il prezzo per unità di misura (per esempio al kg, al litro o al pezzo) e indica quale costa meno. Non confronta confezioni misurate a peso con altre misurate a volume o a pezzi.</li>
-    <li><strong>Arrotondamento:</strong> gli importi sono arrotondati ai decimali della valuta scelta (per l'euro, al centesimo; per lo yen, all'unità).</li>
+    <li><strong>Prezzo al kg:</strong> dati il prezzo e la quantità di più confezioni, anche fatte di più pezzi (per esempio 4 × 125 g), calcola il prezzo per unità di misura (per esempio al kg, al litro o al pezzo) e indica quale costa meno e di quanto. Non confronta confezioni misurate a peso con altre misurate a volume o a pezzi.</li>
+    <li><strong>Offerte:</strong> dati il prezzo di un pezzo, l'offerta (per esempio 3x2, 1+1, il secondo pezzo a metà prezzo o 3 pezzi a un prezzo fisso) e quanti pezzi compri, calcola quanto paghi, quanto costa ogni pezzo, il risparmio e lo sconto equivalente. Dopo l'offerta può applicare uno sconto tessera e poi un buono: un buono con una spesa minima vale solo se la spesa, dopo l'offerta e la tessera, la raggiunge, e nessun buono porta il totale sotto zero. I pezzi che non formano un gruppo intero dell'offerta si pagano a prezzo pieno: se compri meno pezzi di quanti ne chiede l'offerta, l'offerta non si applica.</li>
+    <li><strong>Cifra in grande:</strong> mostra a tutto schermo la cifra di un risultato, con i passaggi del calcolo, e mentre la mostra tiene acceso lo schermo.</li>
+    <li><strong>Arrotondamento:</strong> gli importi sono arrotondati ai decimali della valuta scelta (per l'euro, al centesimo; per lo yen, all'unità); i prezzi per unità di misura e per pezzo possono averne di più. Le percentuali calcolate dall'app sono arrotondate al centesimo di punto.</li>
     <li><strong>Valuta:</strong> scegliere una valuta cambia il simbolo e il numero di decimali. L'app non converte gli importi da una valuta all'altra.</li>
     <li><strong>Quello che l'app non sa:</strong> non sa quali imposte, spese, promozioni o arrotondamenti applica il negozio o il locale. L'importo da pagare è quello che ti chiedono loro.</li>
     <li><strong>Percentuali proposte:</strong> le percentuali di sconto, di mancia e di IVA proposte sono scorciatoie che puoi cambiare. Quelle di mancia non indicano quanto si usa lasciare di mancia. Quelle di IVA sono aliquote del paese che scegli, aggiornate alla data che l'app mostra, e possono non essere quelle che valgono per il tuo acquisto.</li>
     <li><strong>Storico:</strong> conserva sul telefono i calcoli che salvi, al massimo 5000: quando ne salvi uno in più, il più vecchio si cancella. Puoi condividere o copiare un calcolo, esportare lo storico in un foglio di calcolo (CSV) e salvarne un backup in un file, da cui ripristinarlo insieme alle percentuali e alle impostazioni.</li>
   </ul>
   <h2>4. Acquisti</h2>
-  <p>Se PricePal, o una funzione di PricePal, è a pagamento, la compri su Google Play. In Italia e nel resto dello Spazio economico europeo il venditore è Google Commerce Limited. Il pagamento e la ricevuta li gestisce Google Play; il diritto di recesso e i rimborsi chiesti a Google seguono i Termini di servizio di Google Play. Restano in ogni caso i diritti della garanzia legale descritti al punto 5.</p>
+  <p>Se PriceMath, o una funzione di PriceMath, è a pagamento, la compri su Google Play. In Italia e nel resto dello Spazio economico europeo il venditore è Google Commerce Limited. Il pagamento e la ricevuta li gestisce Google Play; il diritto di recesso e i rimborsi chiesti a Google seguono i Termini di servizio di Google Play. Restano in ogni caso i diritti della garanzia legale descritti al punto 5.</p>
   <h2>5. Garanzia legale</h2>
-  <p>Se sei un consumatore e hai pagato PricePal o una sua funzione, hai i diritti della garanzia legale di conformità per i contenuti digitali (in Italia, gli articoli 135-octies e seguenti del Codice del Consumo, decreto legislativo 6 settembre 2005, n. 206).</p>
+  <p>Se sei un consumatore e hai pagato PriceMath o una sua funzione, hai i diritti della garanzia legale di conformità per i contenuti digitali (in Italia, gli articoli 135-octies e seguenti del Codice del Consumo, decreto legislativo 6 settembre 2005, n. 206).</p>
   <h2>6. I dati</h2>
   <p>Come trattiamo i dati personali lo spiega l'informativa privacy, che trovi nelle impostazioni dell'app e su <a href="https://artunx.github.io/price-pal-privacy/">https://artunx.github.io/price-pal-privacy/</a>.</p>
 </main>
